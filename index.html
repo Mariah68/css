@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced CSS - Assignment 1</title>
+    <style>
+
+h2 {
+color: #5B5A5A;
+font-family: Calibri Light;
+
+
+}
+
+
+p {
+  color: #5B5A5A;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-gap: 20px;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.gallery-item h3 {
+  background-color: #FAF7FF;   
+  color: #5B5A5A;
+  font-family: Calibri Light;
+  max-width: 100%;
+  height: auto;
+  padding: 1% 50% 1%;
+  margin: 0;
+  text-align: center;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.gallery-item img {
+  background-color: #6BA2D9;
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px 25px 0px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
+
+
+
+
+
+    </style>
+</head>
+
+<h2>Gallery Heading</h2>
+
+<body>
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="photos/01.png" alt="Imagine 1">
+    <h3>ImageTitle</h3>
+
+   </div>
+  <div class="gallery-item">
+    <img src="photos/02.png" alt="Imagine 2">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/03.png" alt="Imagine 3">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/04.png" alt="Imagine 4">
+    <h3>ImageTitle</h3>
+   
+  </div>
+  <div class="gallery-item">
+    <img src="photos/05.png" alt="Imagine 5">
+    <h3>ImageTitle</h3>
+   
+  </div>
+  <div class="gallery-item">
+    <img src="photos/06.png" alt="Imagine 6">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/07.png" alt="Imagine 7">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/08.png" alt="Imagine 8">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/09.png" alt="Imagine 9">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/10.png" alt="Imagine 10">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/11.png" alt="Imagine 1">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/12.png" alt="Imagine 2">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/13.png" alt="Imagine 3">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/14.png" alt="Imagine 4">
+    <h3>ImageTitle</h3>
+    
+  </div>
+  <div class="gallery-item">
+    <img src="photos/15.png" alt="Imagine 5">
+    <h3>ImageTitle</h3>
+    
+  </div>
+</div>  
+
+
+<p>
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mauris, fermentum at nulla dignissim, tristique feugiat turpis. Donec gravida nulla non tellus lacinia aliquam. Nam egestas vulputate pharetra. Donec eleifend quis lectus et lacinia. Nulla dui lectus, ornare et dolor vel, viverra consectetur elit. Suspendisse potenti. Quisque ullamcorper quis massa quis interdum. Cras scelerisque sit amet odio nec maximus.
+
+Donec dignissim auctor tristique. Duis accumsan quam ac massa sodales, eget pulvinar dolor eleifend. Maecenas eget iaculis augue, sollicitudin mattis risus. Vivamus mi risus, luctus in tincidunt eu, malesuada ac libero. Aliquam eget turpis dolor. Donec molestie libero a tellus porttitor fringilla. Vivamus id volutpat metus, ut volutpat nisi. Praesent ultrices accumsan ligula. Quisque fermentum faucibus purus ut eleifend. Curabitur placerat id ex et accumsan. Suspendisse tempus dolor ac volutpat molestie. Aliquam dolor felis, tristique eget interdum ut, ornare sed elit. Aliquam in nibh purus. Donec pharetra vel magna vel sodales. Sed scelerisque, metus condimentum tincidunt ultrices, arcu est semper purus, eu consequat est leo vitae est. Etiam varius, urna ut facilisis scelerisque, felis nisi porta orci, ut semper tellus ante id ante.
+
+Nulla aliquam magna odio, vel malesuada nulla tristique a. Nullam ut vestibulum sapien, sit amet rutrum enim. Duis eget dui vel nisl dignissim tempor
+</p>  
+
+</body>
+
+</html>
